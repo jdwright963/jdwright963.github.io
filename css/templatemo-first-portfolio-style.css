@@ -735,7 +735,7 @@ strong {
 
 .projects-thumb:hover .projects-image,
 .projects-thumb:focus .projects-image {
-  transform: rotate(0) translateY(0);
+  /* transform: rotate(0) translateY(0); */
 }
 
 .projects-thumb .popup-image {
@@ -748,7 +748,7 @@ strong {
   border-radius: var(--border-radius-medium);
   display: block;
   width: 100%;
-  transform: rotate(10deg) translateY(80px);
+  /* transform: rotate(10deg) translateY(80px); */
   transition: all ease 0.5s;
 }
 
