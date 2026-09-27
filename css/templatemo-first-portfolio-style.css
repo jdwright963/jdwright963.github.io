@@ -206,7 +206,7 @@ strong {
   animation: spinner .9s linear infinite;
 }
 
-@-webkit-@keyframes spinner {
+@keyframes spinner {
   to {transform: rotate(360deg);
   }
 }
@@ -733,10 +733,12 @@ strong {
   border-color: var(--secondary-color);
 }
 
+/*
 .projects-thumb:hover .projects-image,
 .projects-thumb:focus .projects-image {
-  /* transform: rotate(0) translateY(0); */
+   transform: rotate(0) translateY(0); 
 }
+*/
 
 .projects-thumb .popup-image {
   display: block;
@@ -1276,22 +1278,5 @@ strong {
     margin: 0;
     color: #666;
     font-size: 0.9rem;
-}
-
-.gameplay-demo-link {
-  display: inline-block;
-  margin: 14px 0 12px;
-  padding: 10px 14px;
-  border-radius: 8px;
-  background: #18b892;
-  color: #ffffff;
-  font-weight: 700;
-  text-decoration: none;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-}
-
-.gameplay-demo-link:hover {
-  background: #129a7a;
-  transform: translateY(-1px);
 }
 
