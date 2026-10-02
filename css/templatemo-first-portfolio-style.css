@@ -572,7 +572,17 @@ strong {
 }
 
 .profile-body p {
+  display: flex;
+  align-items: center;
   margin-bottom: 0;
+}
+
+.profile-body p > span:last-child {
+  min-width: 0;
+}
+
+.profile-body a {
+  overflow-wrap: anywhere;
 }
 
 .profile-body p:nth-of-type(even) {
@@ -1101,6 +1111,21 @@ strong {
     margin-bottom: 120px;
   }
 
+  .hero-title,
+  .hero h2 {
+    padding: 16px 28px;
+    border-radius: 32px;
+    letter-spacing: 0;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
   .about-thumb {
     padding-right: 0;
     padding-left: 0;
@@ -1151,6 +1176,41 @@ strong {
   .navbar .container {
     margin-right: 12px;
     margin-left: 12px;
+  }
+
+  .hero-title,
+  .hero h2 {
+    padding: 14px 22px;
+    border-radius: 24px;
+    letter-spacing: 0;
+  }
+  
+  .hero-title {
+    font-size: 28px;
+  }
+  
+  .hero h2 {
+    font-size: 20px;
+  }
+  
+  .profile-body p {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-small-title {
+    flex: 0 0 96px;
+    min-width: 0;
+    margin-right: 0;
+    padding: 12px 10px;
+  }
+  
+  .profile-body p > span:last-child {
+    min-width: 0;
+  }
+  
+  .profile-body a {
+    overflow-wrap: anywhere;
   }
 }
 
@@ -1355,6 +1415,13 @@ strong {
   .navbar-nav .nav-link.active::after,
   .navbar-nav .nav-link:hover::after {
     background: var(--secondary-color);
+  }
+
+  .hero-title,
+  .hero h2 {
+    padding: 18px 40px;
+    border-radius: 32px;
+    letter-spacing: 0;
   }
 }
 
