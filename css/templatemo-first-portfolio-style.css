@@ -1305,6 +1305,35 @@ strong {
     display: inline-block;
     margin-top: 8px;
   }
+
+  .navbar .container {
+    background: var(--white-color);
+  }
+  
+  .navbar-brand,
+  .navbar-brand:hover {
+    color: var(--dark-color);
+  }
+  
+  .navbar-nav .nav-link {
+    color: var(--p-color);
+  }
+  
+  .navbar .custom-btn {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+  }
+  
+  .navbar .custom-btn:hover {
+    background: var(--secondary-color);
+    color: var(--white-color);
+  }
+  
+  .navbar-toggler .navbar-toggler-icon,
+  .navbar-toggler .navbar-toggler-icon:before,
+  .navbar-toggler .navbar-toggler-icon:after {
+    background: var(--dark-color);
+  }
 }
 
 @media screen and (max-width: 575.98px) {
